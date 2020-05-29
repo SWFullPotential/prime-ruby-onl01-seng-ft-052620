@@ -1,10 +1,4 @@
-# def prime?(integer)
-#     i = 2
-#     while i < integer
-#       return false if integer <= 0 
-#         i += 1
-#     end
-#     true
-# end
-
-require 'prime'; def prime?(n); Prime.prime?(n); end
+require 'prime' 
+def prime?(n)
+  Prime.prime?(n) 
+end
