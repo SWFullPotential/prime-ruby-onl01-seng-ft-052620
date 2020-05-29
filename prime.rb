@@ -7,3 +7,4 @@ def prime?(integer)
     true
 end
 
+returns false for non-prime numbers 
