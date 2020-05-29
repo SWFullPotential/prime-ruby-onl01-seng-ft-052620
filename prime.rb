@@ -1,10 +1,10 @@
-def prime?(integer)
-    i = 2
-    while i < integer
-      return false if integer <= 0 
-        i += 1
-    end
-    true
-end
+# def prime?(integer)
+#     i = 2
+#     while i < integer
+#       return false if integer <= 0 
+#         i += 1
+#     end
+#     true
+# end
 
-returns false for non-prime numbers 
+require 'prime'; def prime?(n); Prime.prime?(n); end
